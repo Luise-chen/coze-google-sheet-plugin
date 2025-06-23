@@ -4,7 +4,7 @@ info:
   version: "1.0.0"
   description: Save user profile data to Google Sheets
 servers:
-  - url: https://script.google.com/macros/s/YOUR_DEPLOYED_SCRIPT_ID/exec
+  - url: https://script.google.com/macros/s/AKfycbzM-AfMB2Cm63xb4dmh_bt9XPv-GGQNpXPpTOBLbhDvephHw1_KZcVvbZ0tkR26aq_J/exec
 paths:
   /:
     post:
