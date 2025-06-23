@@ -1,0 +1,37 @@
+openapi: 3.0.0
+info:
+  title: SaveUserProfileToSheet
+  version: "1.0.0"
+  description: Save user profile data to Google Sheets
+servers:
+  - url: https://script.google.com/macros/s/AKfycbzM-AfMB2Cm63xb4dmh_bt9XPv-GGQNpXPpTOBLbhDvephHw1_KZcVvbZ0tkR26aq_J/exec
+paths:
+  /:
+    post:
+      summary: Save profile data
+      operationId: saveUserProfile
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id: { type: string }
+                space_size: { type: string }
+                living_group: { type: string }
+                bedroom: { type: integer }
+                bathroom: { type: integer }
+                livingroom_text: { type: string }
+                wake_time: { type: string }
+                home_time: { type: string }
+                hosting_style: { type: string }
+                cooking_frequency: { type: string }
+                has_pet: { type: string }
+                color_tone: { type: string }
+                habit: { type: string }
+              required:
+                - user_id
+      responses:
+        "200":
+          description: Success
