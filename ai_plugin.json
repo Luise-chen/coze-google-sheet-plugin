@@ -2,7 +2,7 @@
   "schema_version": "v1",
   "name_for_human": "Save Profile to Sheet",
   "name_for_model": "saveUserProfileToSheet",
-  "description_for_human": "Save user data to Google Sheets.",
+  "description_for_human": "Save user data to Google Sheets",
   "description_for_model": "Use this to save user profile data to a Google Sheet via webhook.",
   "auth": {
     "type": "none"
