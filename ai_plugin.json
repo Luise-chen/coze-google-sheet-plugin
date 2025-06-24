@@ -1,17 +1,24 @@
 {
   "schema_version": "v1",
-  "name_for_human": "Save Profile to Sheet",
-  "name_for_model": "saveUserProfileToSheet",
-  "description_for_human": "Save user data to Google Sheets",
-  "description_for_model": "Use this to save user profile data to a Google Sheet via webhook.",
+  "name_for_model": "save_user_profile_to_sheet",
+  "name_for_human": "SaveUserProfileToSheet",
+  "description_for_model": "Send structured user profile data (e.g., space size, lifestyle) to a Google Sheet for logging and analysis.",
+  "description_for_human": "Send user profile data to Google Sheets via Google Apps Script",
   "auth": {
-    "type": "none"
+    "type": "none",
+    "service_token": "",
+    "sub_type": "",
+    "payload": ""
   },
+  "logo_url": "https://luise-chen.github.io/SaveUserProfileToSheet/logo.png",
+  "contact_email": "1071201466@qq.com",
+  "legal_info_url": "https://luise-chen.github.io/SaveUserProfileToSheet/legal",
   "api": {
     "type": "openapi",
-    "url": "https://luise-chen.github.io/coze-google-sheet-plugin/openapi.yaml"
+    "url": "https://luise-chen.github.io/SaveUserProfileToSheet/openapi.yaml"
   },
-  "logo_url": "https://i.imgur.com/JV6B5Gp.png",
-  "contact_email": "you@example.com",
-  "legal_info_url": "https://luise-chen.github.io/coze-google-sheet-plugin/legal.html"
+  "common_params": null,
+  "select_mode": null,
+  "api_extend": null,
+  "description_for_claude3": ""
 }
